@@ -7,3 +7,4 @@ Connect to existing database
 - Use SQL Server as Database
 - LINQ
 - Swagger
+- Enabled Cross-Origin Requests (CORS)
