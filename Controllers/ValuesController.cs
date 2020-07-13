@@ -189,7 +189,7 @@ namespace valueApi.Controllers
                 }
 
             }
-            catch (System.Exception ex)
+            catch (System.Exception)
             {
                 result = new
                 {

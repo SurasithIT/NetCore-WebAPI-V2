@@ -5152,11 +5152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\valueApi\\valueApi.csproj",
+      "projectUniqueName": "C:\\Users\\surasith\\Desktop\\NetCore-WebAPI-V2\\valueApi.csproj",
       "projectName": "valueApi",
-      "projectPath": "d:\\valueApi\\valueApi.csproj",
+      "projectPath": "C:\\Users\\surasith\\Desktop\\NetCore-WebAPI-V2\\valueApi.csproj",
       "packagesPath": "C:\\Users\\surasith\\.nuget\\packages\\",
-      "outputPath": "d:\\valueApi\\obj\\",
+      "outputPath": "C:\\Users\\surasith\\Desktop\\NetCore-WebAPI-V2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\surasith\\AppData\\Roaming\\NuGet\\NuGet.Config",

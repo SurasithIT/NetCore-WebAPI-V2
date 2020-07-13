@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\valueApi\\valueApi.csproj": {}
+    "C:\\Users\\surasith\\Desktop\\NetCore-WebAPI-V2\\valueApi.csproj": {}
   },
   "projects": {
-    "D:\\valueApi\\valueApi.csproj": {
+    "C:\\Users\\surasith\\Desktop\\NetCore-WebAPI-V2\\valueApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\valueApi\\valueApi.csproj",
+        "projectUniqueName": "C:\\Users\\surasith\\Desktop\\NetCore-WebAPI-V2\\valueApi.csproj",
         "projectName": "valueApi",
-        "projectPath": "D:\\valueApi\\valueApi.csproj",
+        "projectPath": "C:\\Users\\surasith\\Desktop\\NetCore-WebAPI-V2\\valueApi.csproj",
         "packagesPath": "C:\\Users\\surasith\\.nuget\\packages\\",
-        "outputPath": "D:\\valueApi\\obj\\",
+        "outputPath": "C:\\Users\\surasith\\Desktop\\NetCore-WebAPI-V2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\surasith\\AppData\\Roaming\\NuGet\\NuGet.Config",

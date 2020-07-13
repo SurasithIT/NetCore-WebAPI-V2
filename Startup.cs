@@ -30,7 +30,7 @@ namespace valueApi
             // using Microsoft.EntityFrameworkCore;
             services.AddDbContext<DataContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
+            services.AddCors();
             services.AddControllers();
             services.AddSwaggerGen();
         }
@@ -43,9 +43,16 @@ namespace valueApi
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            // CORS have to add After Routing and Disable HttpRedirection
+            app.UseCors(x => x
+                            .AllowAnyMethod()
+                            .AllowAnyHeader()
+                            .SetIsOriginAllowed(origin => true) // allow any origin
+                            .AllowCredentials()); // allow credentials
 
             app.UseAuthorization();
 
