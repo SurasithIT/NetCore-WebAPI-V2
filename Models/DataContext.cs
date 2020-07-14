@@ -15,7 +15,7 @@ namespace valueApi.Models
         {
         }
 
-        public virtual DbSet<Values> Values { get; set; }
+        public virtual DbSet<Value> Values { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
